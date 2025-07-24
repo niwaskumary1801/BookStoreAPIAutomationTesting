@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FastAPI Test Suite]">
+  <test thread-count="5" name="API Tests(failed)">
+    <classes>
+      <class name="tests.VerifyPositiveScenarioForBookTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="updateBookInCollection"/>
+          <include name="checkIfBookDeleted"/>
+          <include name="deleteBookFromCollection"/>
+          <include name="testGetAllBooks"/>
+          <include name="init"/>
+          <include name="createBookInCollection"/>
+        </methods>
+      </class> <!-- tests.VerifyPositiveScenarioForBookTest -->
+      <class name="tests.VerifyPositiveScenarioForUserAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testUserIsCreated"/>
+          <include name="GenerateNewTokentoAccessUser"/>
+          <include name="NewUserCreation"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- tests.VerifyPositiveScenarioForUserAccountTest -->
+    </classes>
+  </test> <!-- API Tests(failed) -->
+</suite> <!-- Failed suite [FastAPI Test Suite] -->

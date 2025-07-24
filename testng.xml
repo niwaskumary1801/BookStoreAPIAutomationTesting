@@ -1,0 +1,10 @@
+
+<suite name="FastAPI Test Suite">
+  <test name="API Tests">
+     <classes>
+        <class name="tests.VerifyPositiveScenarioForUserAccountTest"/>
+        <class name="tests.VerifyPositiveScenarioForBookTest"/>
+        <class name="tests.VerifyNegativeScenarioUserAndBook"/>
+     </classes>
+  </test> 
+</suite> 

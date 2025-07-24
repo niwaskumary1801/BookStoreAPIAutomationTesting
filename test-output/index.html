@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FastAPI_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">FastAPI Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FastAPI_Test_Suite" class="navigator-link ">
+                    <span>C:\APIAutomationTestingRestAssured\BookStoreAPIAutomationTesting\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FastAPI_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FastAPI_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FastAPI_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FastAPI_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FastAPI_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FastAPI_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FastAPI_Test_Suite" class="hide-methods passed suite-FastAPI_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-FastAPI_Test_Suite -->
+                      <a href="#" panel-name="suite-FastAPI_Test_Suite" class="show-methods passed suite-FastAPI_Test_Suite"> (show)</a> <!-- show-methods passed suite-FastAPI_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-FastAPI_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyPositiveScenarioForUserAccountTest" class="method navigator-link" hash-for-method="GenerateNewTokentoAccessUser">GenerateNewTokentoAccessUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyPositiveScenarioForUserAccountTest" class="method navigator-link" hash-for-method="NewUserCreation">NewUserCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyPositiveScenarioForBookTest" class="method navigator-link" hash-for-method="checkIfBookDeleted">checkIfBookDeleted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyNegativeScenarioUserAndBook" class="method navigator-link" hash-for-method="createBookInCollection">createBookInCollection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyPositiveScenarioForBookTest" class="method navigator-link" hash-for-method="createBookInCollection">createBookInCollection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyNegativeScenarioUserAndBook" class="method navigator-link" hash-for-method="deleteBookFromCollection">deleteBookFromCollection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyPositiveScenarioForBookTest" class="method navigator-link" hash-for-method="deleteBookFromCollection">deleteBookFromCollection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyNegativeScenarioUserAndBook" class="method navigator-link" hash-for-method="testGenerateTokenInvalidCredentials">testGenerateTokenInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyPositiveScenarioForBookTest" class="method navigator-link" hash-for-method="testGetAllBooks">testGetAllBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyPositiveScenarioForUserAccountTest" class="method navigator-link" hash-for-method="testUserIsCreated">testUserIsCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyNegativeScenarioUserAndBook" class="method navigator-link" hash-for-method="testUserIsCreated">testUserIsCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyNegativeScenarioUserAndBook" class="method navigator-link" hash-for-method="test_CreateUserWhenPayloadDataMissing">test_CreateUserWhenPayloadDataMissing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyNegativeScenarioUserAndBook" class="method navigator-link" hash-for-method="test_CreateUserWithInvalidPassword">test_CreateUserWithInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyNegativeScenarioUserAndBook" class="method navigator-link" hash-for-method="updateBookInCollection">updateBookInCollection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FastAPI_Test_Suite" title="tests.VerifyPositiveScenarioForBookTest" class="method navigator-link" hash-for-method="updateBookInCollection">updateBookInCollection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FastAPI_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FastAPI_Test_Suite" class="panel FastAPI_Test_Suite">
+          <div class="suite-FastAPI_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.VerifyPositiveScenarioForBookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkIfBookDeleted">
+                  </a> <!-- checkIfBookDeleted -->
+                  <span class="method-name">checkIfBookDeleted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBookInCollection">
+                  </a> <!-- createBookInCollection -->
+                  <span class="method-name">createBookInCollection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBookFromCollection">
+                  </a> <!-- deleteBookFromCollection -->
+                  <span class="method-name">deleteBookFromCollection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllBooks">
+                  </a> <!-- testGetAllBooks -->
+                  <span class="method-name">testGetAllBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBookInCollection">
+                  </a> <!-- updateBookInCollection -->
+                  <span class="method-name">updateBookInCollection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FastAPI_Test_Suite-class-passed -->
+          <div class="suite-FastAPI_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.VerifyPositiveScenarioForUserAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GenerateNewTokentoAccessUser">
+                  </a> <!-- GenerateNewTokentoAccessUser -->
+                  <span class="method-name">GenerateNewTokentoAccessUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewUserCreation">
+                  </a> <!-- NewUserCreation -->
+                  <span class="method-name">NewUserCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserIsCreated">
+                  </a> <!-- testUserIsCreated -->
+                  <span class="method-name">testUserIsCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FastAPI_Test_Suite-class-passed -->
+          <div class="suite-FastAPI_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.VerifyNegativeScenarioUserAndBook</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBookInCollection">
+                  </a> <!-- createBookInCollection -->
+                  <span class="method-name">createBookInCollection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBookFromCollection">
+                  </a> <!-- deleteBookFromCollection -->
+                  <span class="method-name">deleteBookFromCollection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateTokenInvalidCredentials">
+                  </a> <!-- testGenerateTokenInvalidCredentials -->
+                  <span class="method-name">testGenerateTokenInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserIsCreated">
+                  </a> <!-- testUserIsCreated -->
+                  <span class="method-name">testUserIsCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_CreateUserWhenPayloadDataMissing">
+                  </a> <!-- test_CreateUserWhenPayloadDataMissing -->
+                  <span class="method-name">test_CreateUserWhenPayloadDataMissing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_CreateUserWithInvalidPassword">
+                  </a> <!-- test_CreateUserWithInvalidPassword -->
+                  <span class="method-name">test_CreateUserWithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBookInCollection">
+                  </a> <!-- updateBookInCollection -->
+                  <span class="method-name">updateBookInCollection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FastAPI_Test_Suite-class-passed -->
+        </div> <!-- panel FastAPI_Test_Suite -->
+        <div panel-name="test-xml-FastAPI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\APIAutomationTestingRestAssured\BookStoreAPIAutomationTesting\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FastAPI Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;API Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.VerifyPositiveScenarioForUserAccountTest&quot;/&gt;
+      &lt;class name=&quot;tests.VerifyPositiveScenarioForBookTest&quot;/&gt;
+      &lt;class name=&quot;tests.VerifyNegativeScenarioUserAndBook&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Tests --&gt;
+&lt;/suite&gt; &lt;!-- FastAPI Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FastAPI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FastAPI Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FastAPI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FastAPI Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FastAPI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FastAPI Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FastAPI_Test_Suite');
+function tableData_FastAPI_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'NewUserCreation')
+data.setCell(0, 2, 'tests.VerifyPositiveScenarioForUserAccountTest')
+data.setCell(0, 3, 2166);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGenerateTokenInvalidCredentials')
+data.setCell(1, 2, 'tests.VerifyNegativeScenarioUserAndBook')
+data.setCell(1, 3, 1616);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testUserIsCreated')
+data.setCell(2, 2, 'tests.VerifyPositiveScenarioForUserAccountTest')
+data.setCell(2, 3, 1214);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'GenerateNewTokentoAccessUser')
+data.setCell(3, 2, 'tests.VerifyPositiveScenarioForUserAccountTest')
+data.setCell(3, 3, 1040);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteBookFromCollection')
+data.setCell(4, 2, 'tests.VerifyPositiveScenarioForBookTest')
+data.setCell(4, 3, 823);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'updateBookInCollection')
+data.setCell(5, 2, 'tests.VerifyPositiveScenarioForBookTest')
+data.setCell(5, 3, 787);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkIfBookDeleted')
+data.setCell(6, 2, 'tests.VerifyPositiveScenarioForBookTest')
+data.setCell(6, 3, 652);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createBookInCollection')
+data.setCell(7, 2, 'tests.VerifyPositiveScenarioForBookTest')
+data.setCell(7, 3, 631);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetAllBooks')
+data.setCell(8, 2, 'tests.VerifyPositiveScenarioForBookTest')
+data.setCell(8, 3, 623);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteBookFromCollection')
+data.setCell(9, 2, 'tests.VerifyNegativeScenarioUserAndBook')
+data.setCell(9, 3, 585);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testUserIsCreated')
+data.setCell(10, 2, 'tests.VerifyNegativeScenarioUserAndBook')
+data.setCell(10, 3, 577);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createBookInCollection')
+data.setCell(11, 2, 'tests.VerifyNegativeScenarioUserAndBook')
+data.setCell(11, 3, 564);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'updateBookInCollection')
+data.setCell(12, 2, 'tests.VerifyNegativeScenarioUserAndBook')
+data.setCell(12, 3, 530);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_CreateUserWhenPayloadDataMissing')
+data.setCell(13, 2, 'tests.VerifyNegativeScenarioUserAndBook')
+data.setCell(13, 3, 517);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_CreateUserWithInvalidPassword')
+data.setCell(14, 2, 'tests.VerifyNegativeScenarioUserAndBook')
+data.setCell(14, 3, 514);
+window.suiteTableData['FastAPI_Test_Suite']= { tableData: data, tableDiv: 'times-div-FastAPI_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-FastAPI_Test_Suite">
+              </div> <!-- times-div-FastAPI_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FastAPI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FastAPI Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FastAPI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.VerifyPositiveScenarioForBookTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">init</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.VerifyNegativeScenarioUserAndBook</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">init</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FastAPI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyPositiveScenarioForUserAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">NewUserCreation</span>
+                <span class="method-start">432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GenerateNewTokentoAccessUser</span>
+                <span class="method-start">2603 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserIsCreated</span>
+                <span class="method-start">3644 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyPositiveScenarioForBookTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createBookInCollection</span>
+                <span class="method-start">4861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetAllBooks</span>
+                <span class="method-start">5494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateBookInCollection</span>
+                <span class="method-start">6119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteBookFromCollection</span>
+                <span class="method-start">6909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkIfBookDeleted</span>
+                <span class="method-start">7733 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyNegativeScenarioUserAndBook</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createBookInCollection</span>
+                <span class="method-start">8388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteBookFromCollection</span>
+                <span class="method-start">8954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGenerateTokenInvalidCredentials</span>
+                <span class="method-start">9540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserIsCreated</span>
+                <span class="method-start">11157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_CreateUserWhenPayloadDataMissing</span>
+                <span class="method-start">11735 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_CreateUserWithInvalidPassword</span>
+                <span class="method-start">12255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateBookInCollection</span>
+                <span class="method-start">12771 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyPositiveScenarioForUserAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13333 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
